@@ -2014,7 +2014,7 @@ int main( int argc, char *argv[] )
 
     typedef itk::MergeLabelMapFilter< LabelMapType > MergeFilterType;	  
     MergeFilterType::Pointer mergeFilter = MergeFilterType::New(); 	  
-    mergeFilter->SetMethod( MergeFilterType::PACK );
+    mergeFilter->SetMethod( itk::MergeLabelMapFilterEnums::ChoiceMethod::PACK );
     mergeFilter->SetInput( labelMap );
     mergeFilter->SetInput( 1, leftLabelConverter->GetOutput() );
     mergeFilter->Update();
