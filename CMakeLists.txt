@@ -7,9 +7,9 @@ project(Slicer-AirwaySegmentation)
 set(EXTENSION_HOMEPAGE "https://github.com/lassoan/Slicer-AirwaySegmentation")
 set(EXTENSION_CATEGORY "Segmentation")
 set(EXTENSION_CONTRIBUTORS "Pietro Nardelli (University College Cork), Andras Lasso (PerkLab, Queen's University)")
-set(EXTENSION_DESCRIPTION "CLI module for airway segmentation of chest CT images")
-set(EXTENSION_ICONURL "http://www.slicer.org/slicerWiki/images/7/7d/AirwaySegmentation-ICON.png")
-set(EXTENSION_SCREENSHOTURLS "http://www.slicer.org/slicerWiki/images/2/24/Slicer4-AirwaySegmentation-GUI.png")
+set(EXTENSION_DESCRIPTION "Automated airway segmentation in chest CT images")
+set(EXTENSION_ICONURL "https://raw.githubusercontent.com/lassoan/Slicer-AirwaySegmentation/master/AirwaySegmentation-ICON.png")
+set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/lassoan/Slicer-AirwaySegmentation/master/Screenshot01.jpg")
 
 #-----------------------------------------------------------------------------
 # Extension dependencies
