@@ -1,1 +1,3 @@
-CLI module for airway segmentation starting from chest CT images.
+Module for 3D Slicer for airway segmentation starting from chest CT images.
+
+The repository was forked from https://github.com/PietroNardelli/Slicer-AirwaySegmentation because the maintainer did not merge pull requests for several years.
