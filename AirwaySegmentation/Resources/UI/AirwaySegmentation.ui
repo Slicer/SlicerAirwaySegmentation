@@ -111,6 +111,12 @@
         <property name="removeEnabled">
          <bool>true</bool>
         </property>
+        <property name="editEnabled">
+         <bool>true</bool>
+        </property>
+        <property name="renameEnabled">
+         <bool>true</bool>
+        </property>
         <property name="noneDisplay">
          <string>Create new segmentation</string>
         </property>

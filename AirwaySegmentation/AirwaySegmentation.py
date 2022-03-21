@@ -20,9 +20,10 @@ class AirwaySegmentation(ScriptedLoadableModule):
     self.parent.title = "Airway Segmentation"
     self.parent.categories = ["Segmentation"]
     self.parent.dependencies = []
-    self.parent.contributors = ["Pietro Nardelli (University College Cork)"]
+    self.parent.contributors = ["Pietro Nardelli (University College Cork)", "Andras Lasso (PerkLab, Queen's University)"]
     self.parent.helpText = """
 Segment airways on CT images from a single input point in the trachea.
+See more information in the <a href="https://github.com/lassoan/Slicer-AirwaySegmentation">extension documentation</a>.
 """
     self.parent.acknowledgementText = """
 This file was originally developed by Pietro Nardelli, University College of Cork (UCC).
