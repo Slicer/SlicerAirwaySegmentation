@@ -6,9 +6,9 @@ The extension contains two modules:
 - Airway Segmentation: This is a simple module that segments the airways from a CT image. The user needs to only specify the input volume and a markup point placed in the trachea. The module automatically retrieves the convolution kernel of the image if the image is loaded from DICOM (otherwise `STANDARD` kernel is used). The result is saved into a segmentation node. The module uses `Airway Segmentation CLI` module internally.
 - Airway Segmentation CLI: CLI module that implements the segmentation algorithm. It uses a modified version of ITK's `itkConnectedThresholdImageFilter`' to segment all the pixels with an intensity below a threshold. The threshold is automatically identified by the module. The input seed point is used as starting point for the region growing segmentation. The user needs to specify the convolution kernel used for reconstructing the DICOM image.
 
-The repository was forked from https://github.com/PietroNardelli/Slicer-AirwaySegmentation because the maintainer did not merge pull requests for several years.
-
 ![](Screenshot01.jpg)
+
+The repository was forked from https://github.com/PietroNardelli/Slicer-AirwaySegmentation because the maintainer did not merge pull requests for several years.
 
 ## Tutorial
 
@@ -32,7 +32,8 @@ The repository was forked from https://github.com/PietroNardelli/Slicer-AirwaySe
 
 ## Related extensions
 
-- [Lung CT analyzer](https://github.com/rbumm/SlicerLungCTAnalyzer#lung-ct-analyzer)
+- [Lung CT analyzer](https://github.com/rbumm/SlicerLungCTAnalyzer#lung-ct-analyzer) provides grow-cut algorithm based airway segmentation. See more information [here](https://discourse.slicer.org/t/lung-ct-segmenter-with-local-threshold-airway-segmentation/22065).
+- [SlicerCIP](https://github.com/Slicer/SlicerCIP) (Chest Imaging Platform) extension contains a [slightly improved version of this module](https://github.com/acil-bwh/ChestImagingPlatform/blob/develop/CommandLineTools/SegmentLungAirways/SegmentLungAirways.cxx) (main difference that label value and voxel type is consistent with other modules of CIP and that it can extract the whole airway or trachea/left/right sides separately).
 
 ## References
 
