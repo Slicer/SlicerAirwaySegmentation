@@ -4,7 +4,7 @@ project(AirwaySegmentation)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://github.com/Slicer/SlicerAirwaySegmentation")
+set(EXTENSION_HOMEPAGE "https://github.com/Slicer/SlicerAirwaySegmentation#airway-segmentation")
 set(EXTENSION_CATEGORY "Segmentation")
 set(EXTENSION_CONTRIBUTORS "Pietro Nardelli (University College Cork), Andras Lasso (PerkLab, Queen's University)")
 set(EXTENSION_DESCRIPTION "Automated airway segmentation in chest CT images")
